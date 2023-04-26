@@ -1,0 +1,116 @@
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive; 
+    color: white
+}
+
+h2{
+color: #C69749;
+}
+
+.container { 
+    width: 600px; 
+    margin: 10px auto;
+}
+
+#Skander-picture {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.btn-linkedin {
+    background-color:rgb(13, 13, 144);
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-family: 'Libre Baskerville', serif; 
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+} 
+
+.btn-linkedin:hover {
+    background-color: #C69749;
+} 
+
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
+.card_grey {
+    background-color: #1D2226; 
+    margin: 30px 0;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center; 
+    box-shadow: 0px 10px 20px rgba(30, 30, 30, 0.5);
+}
+
+.card_black {
+    background-color: #000000;
+    margin: 30px 0;
+    padding: 40px;
+    text-align: center;
+}
+
+#intro {
+    margin-bottom: 50px;
+}
+
+.logo-entreprise {
+    width: 30px 
+}
+
+.logo-kbs {
+    width: 110px;
+} 
+.logo-isc {
+    width: 116px;
+}
+
+.logo-hec {
+    width: 150px;
+} 
+
+.list-inline {
+    list-style: none;
+    text-align: left ;
+    line-height: 2; 
+    padding: 10px;
+    font-size: 14px;
+
+} 
+.card-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.list-inline1 li{
+    display: inline;
+}
+
+.list-inline-rs {
+    list-style: none;
+}
+.list-inline-rs li{
+    display: inline;
+}
+
+.list-inline-rs i{
+    font-size: 50px;
+    color: white;
+    letter-spacing: 20px;
+}
+
+.list-inline-rs i:hover{
+    color: #C69749;
+    transition: 0.3s;
+    transform: translateY(10px);
+}
